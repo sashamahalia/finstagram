@@ -1,0 +1,36 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: #244751;
+    color: #E8FDFF;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: white;
+    padding: 25px;
+}
+
+.user-info {
+    transition: 
+}
+.finstagram-post {
+    margin-bottom: 48px;
+}
+
+.finstagram-post .user-info img {
+    border-radius: 25%;
+}
+
+a.photo {
+    transition: 0.5s;
+}
+
+a.photo:hover {
+    padding: 10px;
+}
