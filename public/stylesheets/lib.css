@@ -53,6 +53,16 @@ main {
   box-sizing: border-box;
 }
 
+@media(max-width: 600px) {
+
+.new-finstagram-post > .button {
+  width: 40%;
+  position: fixed;
+  bottom: 20px;
+  left: 150px;
+    }
+}
+
 .button {
   padding: .5em;
   background-color: white;
@@ -118,4 +128,12 @@ main {
 
 .new-comment input[type="text"] {
   width: 100%;
+}
+
+#header-title {
+    margin-left: 20px;
+}
+
+.login-info {
+    margin-right: 20px;
 }

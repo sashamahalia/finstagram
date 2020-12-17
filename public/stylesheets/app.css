@@ -7,6 +7,17 @@ header {
     color: #E8FDFF;
 }
 
+header a:hover {
+    color: #7b999c;
+    transition-timing-function: ease;
+}
+
+@media(max-width: 600px) {
+    header {
+    width: 100%
+    }
+}
+
 body {
     background-color: whitesmoke;
 }
@@ -17,7 +28,7 @@ main {
 }
 
 .user-info {
-    transition: 
+    transition: 0.5s;
 }
 .finstagram-post {
     margin-bottom: 48px;
